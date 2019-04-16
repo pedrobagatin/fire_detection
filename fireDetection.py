@@ -1,8 +1,7 @@
 import numpy as np
 import cv2
 
-fire_cascade = cv2.CascadeClassifier('../Classifier/fire_detection.xml')
-#fire_cascade = cv2.CascadeClassifier('../Classifier/face_detection.xml')
+fire_cascade = cv2.CascadeClassifier('fire_detection.xml')
 
 cap = cv2.VideoCapture(0)
 
